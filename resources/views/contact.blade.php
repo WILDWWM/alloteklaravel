@@ -71,7 +71,8 @@
                 </div>
                 <div class="section_contact">
                     <h1 style="text-decoration: underline;">Formulaire de Contact</h1>
-                    <form class="formulaire" method="post" action="./contact.php">
+                    <form class="formulaire" method="POST" action="">
+                        @csrf
                         <label>Nom</label>
                         <input class="input_formulaire" id="nom" type="text" name="nom" placeholder="Votre nom svp...">
                         <label>Prénom</label>
