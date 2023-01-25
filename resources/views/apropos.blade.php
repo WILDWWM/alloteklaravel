@@ -52,46 +52,31 @@
         </header>
         <!-- Début contenu -->
         <div id="contenu">
-            <h1>Hello World !!! , Bienvenue sur mon site web</h1>
-            <!-- Début section -->
-            <section class="video">
-                <iframe width="860" height="315" src="https://www.youtube.com/embed/4HnFg95mvbE"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </section>
-            <!-- Fin section -->
-            <section class="section">
-                <div class="cadre boite1">
-                    <h1>Identification</h1>
-                    <form class="identification_form">
-                        <label>Pseudo : </label><br>
-                        <input name="pseudo" type="text"><br>
 
-                        <label>Mot de Passe</label><br>
-                        <input name="mdp" type="password"><br> 
+                <h1>A PROPOS DE MOI</h1>
+                <!-- Début section -->
+                <section class="section-propos">
+                    <article class="article1">
+                        <h2>CV</h2>
+                        <img src="{{asset('img/cv.png')}}" alt="" width="400" height="600"/>
                         
-                        <input type="button" value="Connexion" name="bouton_connexion">
-                    </form>
+                    </article>
 
-                </div>
-                <div class="cadre boite2">
-                    <h1>Actualités</h1>
-                </div>
-                <div class="cadre boite3">
-                    <h1>Derniers Articles</h1>
-                </div>
-            </section>
-        </div>
-        <!-- Fin contenu -->
-        <!-- Début aside -->
-        <aside>
-            <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-75150-1" border="0" /></a>
-        </aside>
-        <!-- Fin aside -->
+                    <article class="article2">
+                        <h2>Diplômes</h2>
+                        <img src="{{asset('img/page_diplomes.png')}}" alt="" width="400" height="600"/> 
+                    </article>
+                    
+                    <article class="article3">
+                        <h2>Références</h2>                        
+                        <img src="{{asset('img/secret.png')}}" alt="" width="400" height="600" id="im3"/>
+                    </article>
+                </section>
+                <!-- Fin section -->                
 
-    </div>
-    <!-- Fin contenu -->
+
+            </div>
+        <!-- Fin contenu --> 
 
     <!-- Début Footer -->
     <footer>
